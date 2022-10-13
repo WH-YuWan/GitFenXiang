@@ -20,7 +20,7 @@ public class VertexAttributeViewerEditor : Editor
     private const int buttonWidth = 100;
     private void OnEnable()
     {
-        newShader = AssetDatabase.LoadAssetAtPath<Shader>("Assets/工具/wuhanLibrary/VertexAttributeViewer/VertexAttributeViewer.shader");
+        newShader = AssetDatabase.LoadAssetAtPath<Shader>("Assets/com.WH-YuWan.gitLianXi/VertexAttributeViewer.shader");
         GameObject go = Selection.activeGameObject;
         rend = go.GetComponent<MeshRenderer>();
         oldShader = rend.sharedMaterial.shader;
