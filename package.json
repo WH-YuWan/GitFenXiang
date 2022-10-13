@@ -1,0 +1,14 @@
+{
+    "name": "com.WH-YuWan.positionView",
+    "version": "1.0.0",
+    "displayName": "属性颜色显示",
+    "description": "方便观察模型属性颜色",
+    "unity": "2019.1",
+    "keywords": [
+        "Color"
+    ],
+    "author": {
+        "name": "WH-YuWan",
+        "email": "975379844@QQ.com"
+    }
+}
